@@ -1,4 +1,4 @@
-package tj.playground.java.datastructure;
+package tj.playground.java.datastructure.Queue;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
