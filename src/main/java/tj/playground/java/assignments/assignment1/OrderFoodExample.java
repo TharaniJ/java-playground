@@ -10,6 +10,7 @@ public class OrderFoodExample {
         System.out.println("Please tell your name and Phone No!");
         String name = sc.nextLine();
         int phoneNo = sc.nextInt();
+        sc.nextLine();
         System.out.println("Name :"+ name + "\n"+ "Phone No:" + phoneNo);
 
         System.out.println("Which item do you want to order?(FB or Sub)");
