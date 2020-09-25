@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
-public class BufferReader {
+public class BufferFileReaderExample {
     public static void main(String[] args) {
         String filePath = "data/configuration.properties";
         File file = new File(filePath);
