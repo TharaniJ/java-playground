@@ -1,7 +1,5 @@
 package tj.playground.java.assignments.assignment1;
 
-import tj.playground.java.assignments.assignment1.Sandwich;
-
 public class Submarine extends Sandwich {
     private String isFootLong;
 

@@ -1,10 +1,10 @@
-package tj.playground.java.assignments.assignment1;
+package tj.playground.java.assignments.assignment1ReDone;
 
-public abstract class Sandwich {
+public abstract  class Sandwiches {
 
     private String needCheese;
 
-    private String isGlutenFree;
+    private  String isGlutenFree;
 
     public String getNeedCheese() {
         return needCheese;
@@ -21,7 +21,4 @@ public abstract class Sandwich {
     public void setIsGlutenFree(String isGlutenFree) {
         this.isGlutenFree = isGlutenFree;
     }
-
-    public abstract void print();
-
 }
