@@ -12,6 +12,8 @@ public class Submarine extends Sandwich {
     }
 
     public void print(){
-        System.out.println("just print something");
+        System.out.println("FlatBread" + "(" + "Cheese"+ "-" + getNeedCheese() + "," +
+                "FootLong" + "-" + getIsFootLong() + "," +
+                "Gluten-Free" + "-" + getIsGlutenFree() + ")" );
     }
 }

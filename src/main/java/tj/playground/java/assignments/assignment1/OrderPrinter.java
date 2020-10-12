@@ -15,16 +15,11 @@ public class OrderPrinter {
         List<FlatBread> listOfFlatBread = order.getListOfFlatBreads();
 
         for (Submarine submarine : listOfSubmarine ){
-            System.out.println("FlatBread" + "(" + "Cheese"+ "-" + submarine.getNeedCheese() + "," +
-                    "FootLong" + "-" + submarine.getIsFootLong() + "," +
-                    "Gluten-Free" + "-" + submarine.getIsGlutenFree() + ")" );
+            submarine.print();
         }
 
         for (FlatBread flatBread : listOfFlatBread){
-            System.out.println("FlatBread" + "(" + "Cheese"+ "-" + flatBread.getNeedCheese() + "," +
-                    "Bacon" + "-" + flatBread.getNeedBacon() + "," +
-                    "Gluten-Free" + "-" + flatBread.getIsGlutenFree() + ")" );
-
+            flatBread.print();
         }
     }
 

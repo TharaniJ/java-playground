@@ -12,7 +12,10 @@ public class FlatBread extends Sandwich {
     }
 
     public void print(){
-        System.out.println("just print something");
+        System.out.println("FlatBread" + "(" + "Cheese"+ "-" + getNeedCheese() + "," +
+                "Bacon" + "-" + getNeedBacon() + "," +
+                "Gluten-Free" + "-" + getIsGlutenFree() + ")" );
+
     }
 
 }
