@@ -23,7 +23,6 @@ public class MapExample {
 
         System.out.println("Password : " + testData.get("password"));
 
-
         System.out.println("Does the key 'userName' exist? " + testData.containsKey("userName"));
         System.out.println("Does the key 'abc' exist? " + testData.containsKey("abc"));
 
