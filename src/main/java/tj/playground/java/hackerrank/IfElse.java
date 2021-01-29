@@ -1,6 +1,5 @@
 package tj.playground.java.hackerrank;
 
-import javax.xml.soap.SOAPPart;
 import java.net.SocketTimeoutException;
 import java.sql.SQLOutput;
 import java.util.Scanner;
