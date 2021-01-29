@@ -23,7 +23,7 @@ public class IfElse {
             System.out.println("Weird");
         } else if (20 < N){
             System.out.println("Not Weird");
-        }
+        
 
     }
 }
