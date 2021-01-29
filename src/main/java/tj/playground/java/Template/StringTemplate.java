@@ -31,6 +31,7 @@ public class StringTemplate {
 
         System.out.println(query);
         //Adding a comment to check the jenkins build
+        //adding this comment to check email noti in jenkins
     }
 
 }
