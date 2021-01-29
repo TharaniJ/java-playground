@@ -30,9 +30,6 @@ public class StringTemplate {
         String query = String.format(queryTemplate, col1, col2, col3, table, filterCol, filterVal);
 
         System.out.println(query);
-        //Adding a comment to check the jenkins build
-        //adding this comment to check email noti in jenkins
-        //adding this comment also to check email noti in jenkins
     }
 
 }
