@@ -21,9 +21,9 @@ public class IfElse {
             System.out.println("Not Weird");
         } else if ((6 <= N) && (N <= 20)) {
             System.out.println("Weird");
-        } else if (20 < N){
+        } else if (20 < N) {
             System.out.println("Not Weird");
-        
+        }
 
     }
 }
